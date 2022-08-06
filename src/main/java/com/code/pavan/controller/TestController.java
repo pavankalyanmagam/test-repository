@@ -14,6 +14,12 @@ public class TestController {
 	@GetMapping("/test2")
 	public String retunResponse2() {
 		return  " This is Test Method";
+	}	
+	@GetMapping("/test3")
+	public String retunResponse3() {
+		return  " This is Test Method";
 	}
+	
+	
 
 }
