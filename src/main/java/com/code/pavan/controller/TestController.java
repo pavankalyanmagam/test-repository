@@ -25,7 +25,10 @@ public class TestController {
 		return  " This is Test Method";
 	}
 	
-	
+	@GetMapping("/test5")
+	public String retunResponse5() {
+		return  " This is Test Method";
+	}
 	
 	
 
